@@ -1,0 +1,13 @@
+// convert fareheit to celcius
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+    int a,b;
+    printf("enter the value of a:");
+    printf("enter the value of b:");
+    scanf("%d","%d",&a,&b);
+    printf("%d",a);
+    getch();
+}
