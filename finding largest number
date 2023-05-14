@@ -1,0 +1,21 @@
+// finding the largest number
+#include<stdio.h>
+#include<conio.h>
+
+int main()
+{
+    int a,b,c;
+    printf("Enter the three numbers:");
+    scanf("%d%d%d",&a,&b,&c);
+     int largest=a;
+     if (b>largest){
+        largest=b;
+     }
+     if (c>largest)
+{
+    largest=c;
+}
+    printf("the largest number is : %d",largest);
+        getch();
+        return 0;
+}
